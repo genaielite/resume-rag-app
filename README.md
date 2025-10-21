@@ -3,13 +3,13 @@ This repository contains a Jupyter notebook **`Resume_Ingestion_Pipeline.ipynb`*
 
 Note - The Following aspects are missing and need to be worked on.
 
-1. This is not a production-ready code yet
+ 1. This is not a production-ready code yet
    
-2. Data Ingestion for a  Resume can be made in a parallel processing way
+ 2. Data Ingestion for a  Resume can be made in a parallel processing way
    
-3.No Evaluation stratey is added, whci can be added
+ 3. No Evaluation strategy is added, which can be added
 
-4.No Agentic aspect added yet
+ 4. No Agentic aspect added yet
 
 **High level flow**
 1. **Partition & Read**: Load `.docx` resumes and extract text using `unstructured`.
