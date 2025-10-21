@@ -1,10 +1,14 @@
 # Resume Ingestion Pipeline – DOCX → Chunks → LLM Metadata → Weaviate
 This repository contains a Jupyter notebook **`Resume_Ingestion_Pipeline.ipynb`** that ingests resumes from `.docx` files, cleans and chunks the text, extracts structured candidate metadata using an LLM, and indexes both the chunks and extracted metadata into a **Weaviate** vector database (with **OpenAI** embeddings).
 
-Note - Following aspects are missings and need to work on it
-1.This is not a production ready code yet
-2.Data Ingestion for Resume can be made in parallel processing way
+Note - The Following aspects are missing and need to be worked on.
+
+1. This is not a production-ready code yet
+   
+2. Data Ingestion for a  Resume can be made in a parallel processing way
+   
 3.No Evaluation stratey is added, whci can be added
+
 4.No Agentic aspect added yet
 
 **High level flow**
